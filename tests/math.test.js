@@ -5,9 +5,9 @@ describe('math.js', () => {
     expect(math.add(2, 3)).toBe(5);
   });
 
-test('forçando uma falha ', () => {
-    expect(math.add(2, 3)).toBe(6); // resultado errado de propósito para testar a falha
-  });
+// test('forçando uma falha ', () => {
+//     expect(math.add(2, 3)).toBe(6); // resultado errado de propósito para testar a falha
+//   });
 
   test('soma com números negativos', () => {
     expect(math.add(-2, -3)).toBe(-5);
